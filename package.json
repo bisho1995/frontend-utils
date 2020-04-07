@@ -1,0 +1,9 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "Comprehensive list of utility tools used daily for frontend",
+  "main": "index.js",
+  "repository": "https://github.com/bisho1995/frontend-utils.git",
+  "author": "Bisvarup Mukherjee",
+  "license": "GPL"
+}

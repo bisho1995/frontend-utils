@@ -2,10 +2,14 @@
   "name": "utils",
   "version": "1.0.0",
   "description": "Comprehensive list of utility tools used daily for frontend",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/bisho1995/frontend-utils.git",
   "author": "Bisvarup Mukherjee",
   "license": "GPL",
+  "scripts": {
+    "prebuild": "npm i",
+    "build": "webpack"
+  },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",

@@ -15,7 +15,7 @@ const config = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: dev ? '[name].bundle.js' : '[name].[chunkhash].js',
+    filename: 'index.js',
     publicPath: '/public/',
     chunkFilename: dev ? '[name].bundle.js' : '[name].[chunkhash].js',
     libraryTarget: 'umd',
